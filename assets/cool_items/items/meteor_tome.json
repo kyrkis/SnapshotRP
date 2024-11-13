@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "gui",
+          "model": {
+            "type": "minecraft:model",
+            "model": "cool_items:item/meteor_tome"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "cool_items:item/meteor_tome_model"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "gui",
+          "model": {
+            "type": "minecraft:model",
+            "model": "cool_items:item/meteor_tome"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "cool_items:item/meteor_tome_model_closed"
+      }
+    }
+  }
+}
