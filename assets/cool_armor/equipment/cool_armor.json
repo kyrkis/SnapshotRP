@@ -1,0 +1,13 @@
+{
+    "layers": {
+      "humanoid": [
+        { "texture": "cool_armor:cool_armor" }
+      ],
+      "humanoid_leggings": [
+        { "texture": "cool_armor:cool_armor" }
+      ],
+      "wings": [
+        { "texture": "cool_armor:cool_armor" }
+      ]
+    }
+  }
