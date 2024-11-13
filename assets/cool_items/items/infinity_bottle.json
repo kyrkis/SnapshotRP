@@ -10,28 +10,28 @@
           "threshold": 1,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:infinity_bottle_4"
+            "model": "cool_items:item/infinity_bottle_4"
           }
         },
         {
           "threshold": 8,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:infinity_bottle_3"
+            "model": "cool_items:item/infinity_bottle_3"
           }
         },
         {
           "threshold": 16,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:infinity_bottle_2"
+            "model": "cool_items:item/infinity_bottle_2"
           }
         },
         {
           "threshold": 24,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:infinity_bottle_1"
+            "model": "cool_items:item/infinity_bottle_1"
           }
         }
       ]
@@ -44,34 +44,34 @@
           "threshold": 20,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:infinity_bottle_1"
+            "model": "cool_items:item/infinity_bottle_1"
           }
         },
         {
           "threshold": 40,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:infinity_bottle_2"
+            "model": "cool_items:item/infinity_bottle_2"
           }
         },
         {
           "threshold": 60,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:infinity_bottle_3"
+            "model": "cool_items:item/infinity_bottle_3"
           }
         },
         {
           "threshold": 80,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:infinity_bottle_4"
+            "model": "cool_items:item/infinity_bottle_4"
           }
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "cool_items:infinity_bottle_full"
+        "model": "cool_items:item/infinity_bottle_full"
       }
     }
   }
