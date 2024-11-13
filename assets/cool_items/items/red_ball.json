@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cool_items:items/red_ball_item"
+    "model": "cool_items:item/red_ball_item"
   }
 }
