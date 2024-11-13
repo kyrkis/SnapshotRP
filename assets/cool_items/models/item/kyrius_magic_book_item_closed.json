@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "cool_items:item/kyrius_magic_book_item_closed"
+    }
+}

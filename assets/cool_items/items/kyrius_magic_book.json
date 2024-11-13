@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "gui",
+          "model": {
+            "type": "minecraft:model",
+            "model": "cool_items:item/kyrius_magic_book_item_open"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "cool_items:item/kyrius_magic_book_model_open"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "gui",
+          "model": {
+            "type": "minecraft:model",
+            "model": "cool_items:item/kyrius_magic_book_item_closed"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "cool_items:item/kyrius_magic_book_model_closed"
+      }
+    }
+  }
+}
