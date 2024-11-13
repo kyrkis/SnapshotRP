@@ -1,0 +1,23 @@
+{
+    "model": {
+        "type": "minecraft:composite",
+        "models": [
+            {
+                "type": "minecraft:model",
+                "model": "cool_items:item/candle_1"
+            },
+            {
+                "type": "minecraft:model",
+                "model": "cool_items:item/candle_2"
+            },
+            {
+                "type": "minecraft:model",
+                "model": "cool_items:item/candle_3"
+            },
+            {
+                "type": "minecraft:model",
+                "model": "cool_items:item/candleholder"
+            }
+        ]
+    }
+}

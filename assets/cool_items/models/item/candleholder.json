@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "gm4:block/furniture/gold_3_candle_holder_1",
+		"0": "cool_items:item/gold_3_candle_holder_1",
 		"1": "cool_items:item/candle_fire_1",
-		"particle": "gm4:block/furniture/gold_3_candle_holder_1"
+		"particle": "cool_items:item/gold_3_candle_holder_1"
 	},
 	"elements": [
 		{
