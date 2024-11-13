@@ -14,21 +14,21 @@
           }
         },
         {
-          "threshold": 8,
+          "threshold": 10,
           "model": {
             "type": "minecraft:model",
             "model": "cool_items:item/infinity_bottle_3"
           }
         },
         {
-          "threshold": 16,
+          "threshold": 20,
           "model": {
             "type": "minecraft:model",
             "model": "cool_items:item/infinity_bottle_2"
           }
         },
         {
-          "threshold": 24,
+          "threshold": 32,
           "model": {
             "type": "minecraft:model",
             "model": "cool_items:item/infinity_bottle_1"
@@ -41,17 +41,10 @@
       "property": "minecraft:cooldown",
       "entries": [
         {
-          "threshold": 0,
+          "threshold": 0.75,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:item/infinity_bottle_4"
-          }
-        },
-        {
-          "threshold": 0.1,
-          "model": {
-            "type": "minecraft:model",
-            "model": "cool_items:item/infinity_bottle_3"
+            "model": "cool_items:item/infinity_bottle_1"
           }
         },
         {
@@ -62,14 +55,21 @@
           }
         },
         {
-          "threshold": 0.8,
+          "threshold": 0.25,
           "model": {
             "type": "minecraft:model",
-            "model": "cool_items:item/infinity_bottle_1"
+            "model": "cool_items:item/infinity_bottle_3"
           }
         },
         {
-          "threshold": 0.99,
+          "threshold": 0.08,
+          "model": {
+            "type": "minecraft:model",
+            "model": "cool_items:item/infinity_bottle_4"
+          }
+        },
+        {
+          "threshold": 0,
           "model": {
             "type": "minecraft:model",
             "model": "cool_items:item/infinity_bottle_full"
